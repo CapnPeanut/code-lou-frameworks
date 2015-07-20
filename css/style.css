@@ -1,0 +1,396 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************
+General
+********************************************/
+
+/*universal selector*/
+
+/*
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    text-align: center;
+    
+    background-repeat: no-repeat;
+    background:url(/img/naturetrees.jpg) top right no-repeat; background-attachment:fixed;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%; 
+    box-shadow: 0 20px 20px 0px #000;
+    
+}
+
+
+
+a {
+    text-decoration: none;   
+}
+
+li {
+    list-style-type: none;
+    padding: 2px;
+    text-align: center;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+
+
+
+
+/********************************************
+Header
+********************************************/
+/*
+
+header {
+    
+    /*background-image: url(/img/utopia.jpg);*/
+  /*  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: azure;
+    border-radius: 20px;
+    background-image: radial-gradient(circle at top left, lightyellow 0%, azure 50%, skyblue 170%)
+    
+}
+
+
+h1 {
+    font-family: 'Pacifico', sans-serif; 
+    margin: auto;
+    text-align: center;
+    color: dimgray;
+    margin: 10px 10px 20px 10px;
+    text-shadow: 1px 1px 1px #000;
+        
+}
+
+.firstHeader {
+    
+}
+
+h2 {
+    text-align: center; 
+
+    margin: 0px 10px 10px;
+}
+
+.secondHeader {
+        opacity: .2;
+}
+
+
+h3 {
+    text-align: center;
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+h4 {
+    text-align: center;   
+}
+
+
+
+
+
+
+/********************************************
+Navigation Bar
+********************************************/
+
+
+/*
+.menu {
+    
+    color: white;
+    text-align: center;
+    background-color: green;
+    border-radius: 20px;
+    
+
+}
+
+.menu li {
+    color: white;
+    padding: 0 10px;
+    display: inline-block;
+    
+    
+}
+
+.menu :visited {
+    color: #003c00;
+} 
+
+.menu a:hover {
+   color: #66a266; 
+}
+
+.selected {
+    color: mediumspringgreen;
+}
+
+a:active {
+    color: aqua;   
+}
+
+#booger{
+    color: mediumspringgreen;
+}
+
+/********************************************
+Body
+********************************************/
+
+/*
+.body {
+    color: white;
+    list-style-type: none;
+   
+    
+}
+
+
+.mainContent {
+    color: white;
+}
+
+.paragraph-1 {
+   
+}
+
+
+
+/********************************************
+Side Margins
+********************************************/
+/*
+.imageEdges {
+    border-radius: 10%;
+    margin-top: 100px;
+}
+
+.leftMargin {
+    float: left;
+    
+}
+
+.centerMargin {
+   text-align: justify;
+    float: left;
+    width: 60%;
+    padding: 2.5%;
+    border-right: 4px solid #000;
+    border-left: 4px solid #000;
+    
+}
+
+.rightMargin{
+    float: left;
+    
+}
+
+
+
+.signup {
+    text-align: center;
+    color: azure;
+    font-size: 1em;
+    display: inline-block;
+    font-family: serif;
+    
+    
+    
+}
+
+.signup2 {
+    text-align: center;
+    color: azure;
+    font-size: 1em;
+    display: inline-block;4
+    font-family: serif;
+}
+
+
+.toForm {
+    background-color: lightgrey;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.sideMargins {
+    min-width: 15%; 
+    width: 15%;
+    margin: 2.5%;
+}
+
+
+
+
+
+
+
+.natureTrees {
+  
+}
+
+
+
+
+/********************************************
+Footer
+********************************************/
+
+
+
+/*
+footer {
+    width: 100%;
+    background-color: green;
+    color: white;
+    clear: both;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************
+Other Pages!!!!!!!!!!!!!!!!
+*************************************************************************/
+
+/********************************************
+Contact Info
+********************************************/
+
+/*
+.contactHeader {
+    padding-top: 10%;
+}
+
+.contactInfo {
+    
+    text-align: center;
+}
+
+.contactHours {
+    text-align: center;
+}
+
+
+/********************************************
+Gallery
+********************************************/
+
+/*
+.gallery {
+    text-align: center;
+    
+}
+
+.gallery li {
+    max-width: 40%;
+
+    float: left;
+    margin: 10px;
+    
+}
+
+.gallery li:nth-child(3n) {
+    clear: left;   
+}
+
+
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+        
+        
+}
+
+.overlay img {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.overlay p {
+    color: white;
+}
+
+
+/********************************************
+Table
+********************************************/
+/*
+
+.table {
+    border: 2px solid #000;
+    width: 100%;
+}
+
+.selected {
+    color: mediumspringgreen;
+}
+
+
+/********************************************
+Excess Code
+********************************************/
+
+
+/*  id="nature_image"
+
+box-sizing: border box                  forces padding borders and such to stay within parameter
+
+
+
+*/
