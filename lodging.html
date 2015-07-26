@@ -2,55 +2,117 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fantasy World</title>
         <link href="CSS/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico|Kaushan+Script' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
-        <header> 
-            <h1 class="firstHeader">Welcome to Fantasy World!</h1>
+        <div class="container">
+        <header class="page-header"> 
+            <h1 class="firstHeader">Welcome to Fantasy World!!</h1>
             <h2 class="secondHeader">Where your dreams become reality</h2>
             </header>
-                <div class="navigation">
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="history.html">History</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="nature.html">Nature</a></li>
-                        <li><a href="todo.html">To Do</a></li>
-                        <li class="selectedItem"><a href="lodging.html" class="selected">Lodging</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>    
-                    </ul>
+                <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse">
+                            <ul class="menu nav navbar-nav navbar-right">
+                                <li class="selectedItem active"><a class="firstNav selected" href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="history.html">History</a></li>
+                                <li class="dropdown"><a data-toggle="dropdown" data-target="#">To Do<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="nature.html">Nature</a></li>
+                                        <li><a href="events.html">Events</a></li>
+                                        <li><a href="lodging.html">Lodging</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Fake Link 1</a></li>
+                                        <li><a href="#">Fake Link 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>    
+                            </ul>
+                        </div>    
+                    </div>    
                 </div>
-            <section class="bodyGroup">
-                                 <div class="sideMargins leftMargin"><a href="nature.html"><img src="img/unicorn.jpg" alt="Unicorn" class="imageEdges"></a></div>
-                <div class="mainContent centerMargin">
-                    <h3>Lodging</h3>
-                       
-                    <p class="paragraph-1"> </p>
-              
-                    <p class="aboutHeader"></p></div>
-            
-                <div class="sideMargins rightMargin"><a href="nature.html"><img src="img/DrogonHD.jpg" alt="Dragon" class="imageEdges"></a></div>
+            <section class="bodyGroup row">
+                
+                    
+                    <div class="sideMargins leftMargin col-sm-3">
+                        <a href="nature.html"><img src="img/unicorn.jpg" alt="Unicorn" class="imageEdges img-responsive"></a>
+                </div>
+                        
+                
+                    <div class="mainContent centerMargin jumbotron col-sm-6">
+                        <h3>Lodging</h3>
+                        <p class="paragraph-1 lead">Located in the heart of Kentucky...</p>
+                        
+                        <video controls class="container">
+                        <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4">
+                            <track label="English" kind="subtitles" srclang="en" src="captions.vtt" default>
+                        
+                        
+                        </video>
+                        
+                        <audio controls>
+                        <source src="" type="audio/mp3">
+                        
+                        </audio>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                
+                
+                
+                    <div class="sideMargins rightMargin col-sm-3">
+                        <a href="nature.html"><img src="img/DrogonHD.jpg" alt="Dragon" class="imageEdges img-responsive"></a>
+                
+                        
+                        
+                        
+                        
+                <a href="form.html">        
+                <section class="toForm">
+                    <h1 class="signup">Create an Account!</h1>  
+                    <h2 class="signup2">Or Sign In with and existing account.</h2>        
+                </section>
+                </a>
+                
 
+                        
+                </div>
+                
+                
+
+                
             </section>
         
         
         
         
-        <footer> 
-            <p>&copy; 2015 Brian Atchley</p>
-        </footer>
-                        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="/JavaScript/scripts.js"></script>
-        <script src="JavaScript/Jquery.js" type="text/javascript" charset="utf-8"></script>
+            <footer> 
+                <p>&copy; 2015 Brian Atchley</p>
+            </footer>
+            <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+            <script src="/JavaScript/bootstrap.min.js"></script>
+            <script src="/JavaScript/scripts.js"></script>
+        </div>    
     </body>
 </html>
